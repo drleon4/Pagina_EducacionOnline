@@ -1,0 +1,164 @@
+body{
+	background-color: #F7E5D7;
+}
+
+header, .principal, .secundaria, .curiosidades, footer{
+	border-radius: .5em;
+	display: inline-block;
+	padding: .3em;
+	margin: .3em auto;
+	/*text-align: center;*/
+}
+
+.cabecera{
+	background-color: #2DC4D4;
+	height: 100px;
+	text-align: center;
+	padding: 20px 10px 0px 10px;
+}
+
+.cabecera img{
+	float: left;
+}
+
+header img{
+	width: 10%;
+}
+
+.titulo{
+	color: white;
+	font-size: 1.4em;
+
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	list-style: none;
+	padding-top: 25px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	padding-right: 20px;
+	font-family: verdana;
+}
+
+nav ul li a:hover{
+	font-size: 1.5em;
+	background-color: #4C94F2;
+	text-align: center;
+}
+
+#princip{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+
+#princip a{
+	text-decoration: none;
+}
+
+#princip iframe{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.principal{
+	width: 60%;
+	float: left;
+	background-color: #FFF8DC;
+}
+
+.principal img{
+	float: left;
+	width: 25%;
+
+}
+
+.principal p{
+	text-align: justify;
+	padding: .3em;
+}
+
+/*.principal .pie{
+	position: relative;
+	bottom:25px;
+	color:#fff;
+	background-color:#000;
+	padding:2px 10px;
+	opacity:0.5;
+	font-weight:bold;
+}*/
+
+.secundaria{
+	width: 35%;
+	float: right;
+	background-color: #FFF8DC;
+	text-align: center;
+}
+
+.secundaria iframe{
+	border-radius: .3em;
+}
+
+
+
+.curiosidades{
+	width: 99%;
+	background-color: #FFF8DC;	
+}
+
+.bloques{
+	clear: both;
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+
+.bloques aside{
+	width: 32%;
+	border-radius: .3em;
+	background-color: #FFF8DC;	
+	padding: .3em;
+	text-align: justify;
+}
+
+.bloques aside a{
+	text-decoration: none;
+}
+
+.bloques h3{
+	text-align: center;
+}
+
+.bloques img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	display: block;
+}
+
+
+
+footer{
+	text-align: center;
+	width: 99%;
+	background-color: #FFF8DC;	
+}
+
